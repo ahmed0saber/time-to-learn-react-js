@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://unpkg.com/react@17/umd/react.development.js" crossorigin></script>
+    <script src="https://unpkg.com/react-dom@17/umd/react-dom.development.js" crossorigin></script>
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+</head>
+<body>
+    <div id="mydiv"></div>
+</body>
+<script type="text/babel">
+    var name = "Ahmed";
+    var el = (
+        <h1 className="txt">Hi {name} !
+            <span> Glad To Meet You...</span>
+        </h1>
+    );
+    var el2 = React.createElement(
+        'p',
+        {
+            className: 'txt2'
+        },
+        React.createElement(
+            'span',
+            null,
+            'SPAN1'
+        ),
+        ' ',
+        React.createElement(
+            'i',
+            null,
+            'ITALIC TEXT'
+        )
+    )
+
+    ReactDOM.render(el2, document.getElementById('mydiv'))
+</script>
+</html>
