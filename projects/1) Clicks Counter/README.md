@@ -27,11 +27,11 @@ https://react-yus4kq.stackblitz.io/
     }
     render() {
       return (
-        <!--<div>
-          <Header/>
-          <h3>Hi, You clicked this button {this.state.num} times !</h3>
-          <button onClick={this.increament}>Click Me</button>
-        </div>-->
+        &lt;div&gt;
+          &lt;Header/&gt;
+          &lt;h3&gt;Hi, You clicked this button {this.state.num} times !&lt;/h3&gt;
+          &lt;button onClick={this.increament}&gt;Click Me&lt;/button&gt;
+        &lt;/div&gt;
       )
     }
   }
