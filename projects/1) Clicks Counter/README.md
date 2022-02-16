@@ -6,6 +6,7 @@ https://react-yus4kq.stackblitz.io/
 
 ## An alternative to code contained in App.js
 
+<pre>
 <code>
   import React, { Component } from "react";
   import Header from './Header';
@@ -37,3 +38,4 @@ https://react-yus4kq.stackblitz.io/
 
   export default App;
 </code>
+</pre>
