@@ -4,3 +4,4 @@
 &lt;p key={item.num}&gt;Student number {item.num} is called {item.name} with {item.age} years old.&lt;/p&gt;
 </code>
 </pre>
+forgetting it will give an error...
