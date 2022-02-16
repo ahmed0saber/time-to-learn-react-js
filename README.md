@@ -9,3 +9,7 @@ https://stackblitz.com/edit/react-yus4kq
 https://www.w3schools.com/REACT/DEFAULT.ASP
 
 https://reactjs.org/tutorial/tutorial.html
+
+https://www.youtube.com/watch?v=YKBaqjOkXQY&list=PLtFbQRDJ11kEjXWZmwkOV-vfXmrEEsuEW&index=10
+
+https://www.youtube.com/playlist?list=PLC3y8-rFHvwgg3vaYJgHGnModB54rxOk3
