@@ -6,6 +6,6 @@ NavLink adds 'active' class to the current 'a' tag navigated, while Link doesn't
 
 <pre>
 <code>
-  <NavLink to="/" activeClassName="selected">Home</NavLink>
+  &lt;NavLink to="/" activeClassName="selected"&gt;Home&lt;/NavLink&gt;
 </code>
 </pre>
