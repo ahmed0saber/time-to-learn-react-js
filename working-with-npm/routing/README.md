@@ -9,3 +9,5 @@ NavLink adds 'active' class to the current 'a' tag navigated, while Link doesn't
   &lt;NavLink to="/" activeClassName="selected"&gt;Home&lt;/NavLink&gt;
 </code>
 </pre>
+
+> In React Router v6, activeClassName will be removed and you should use the function className to apply classnames to either active or inactive NavLink components.
