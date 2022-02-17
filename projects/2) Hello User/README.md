@@ -3,7 +3,7 @@
 An app that takes the user name as input that says "Hello user"
 
 
-## An alternative to App.js, to work on submission not on change
+### An alternative to App.js, to work on submission not on change
 
 <pre>
 <code>
