@@ -5,6 +5,9 @@ An app that takes the user name as input that says "Hello user"
 
 ## An alternative to App.js, to work on submission not on change
 
+<pre>
+<code>
+
 import React, { Component } from "react";
 
 var username = '';
@@ -38,3 +41,6 @@ class App extends Component {
 }
 
 export default App;
+
+</code>
+</pre>
