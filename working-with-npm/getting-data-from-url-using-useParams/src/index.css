@@ -1,0 +1,115 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+body{
+  background-color: #080808;
+  color: #e3e3e3;
+  text-align: center;
+  min-height: 100vh;
+}
+
+button{
+  padding: 10px 30px;
+  font-size: 18px;
+  font-weight: bold;
+  border: none;
+  border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
+  margin: 4px;
+}
+
+button:hover{
+  opacity: 0.8;
+}
+
+input{
+  padding: 10px 6px;
+  font-size: 18px;
+  font-weight: bold;
+  border: none;
+  border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
+  margin: 4px;
+}
+
+#root{
+  width: 100%;
+}
+
+.navbar{
+  max-width: 100vw;
+  padding: 0px 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: rgb(0, 94, 97);
+}
+.navbar h3{
+  width: fit-content;
+}
+.navbar div{
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.navbar div nav{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.navbar div nav a{
+  color: #e3e3e3;
+  text-decoration: none;
+  padding: 10px;
+  background-color: #08080833;
+  transition-duration: 0.4s;
+}
+.navbar div nav a.active{
+  background-color: #08080899;
+}
+
+p, h3{
+  padding: 4px;
+}
+
+.user-card{
+  text-align: left;
+  width: fit-content;
+  margin: 10px;
+  display: inline-block;
+  background-color: #e3e3e321;
+  color: #e3e3e3;
+  font-weight: bold;
+  padding: 10px;
+  border: 2px solid #e3e3e355;
+  border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
+}
+
+.user-card a{
+  color: #080808;
+  text-decoration: none;
+  background-color: #e3e3e3;
+  padding: 8px 24px;
+}
